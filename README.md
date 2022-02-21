@@ -1,6 +1,8 @@
 # ThreeColumnCardChallenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5. for the coding challenge: https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-. The responsive design has been followed to graceful drop to the smaller view size.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
+The project is for the coding challenge: https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-. 
+The responsive design has been followed to graceful drop to the smaller view size.
 
 ## Development server
 
