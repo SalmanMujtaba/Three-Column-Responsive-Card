@@ -8,18 +8,18 @@
   grid-template-columns: repeat(auto-fit, minmax(16.25rem, 1fr));
   min-block-size: 28.125rem;
 }
-article {
+p {
   color: $transparent-white;
 }
 
-section {
+.cards__item {
   padding-inline: 1.875rem;
   padding-block: 1.875rem;
   display: grid;
   min-block-size: 28.125rem;
 }
 
-.btn-primary {
+a {
   background-color: $very-light-gray;
   border-radius: 1.875rem;
   border-style: solid;
@@ -32,7 +32,7 @@ section {
 
 .cards__sedan {
   background-color: $bright-orange;
-  .btn-primary {
+  a {
     border-color: $bright-orange;
     color: $bright-orange;
     &:hover {
@@ -45,7 +45,7 @@ section {
 }
 .cards__suv {
   background-color: $dark-cyan;
-  .btn-primary {
+  a {
     border-color: $dark-cyan;
     color: $dark-cyan;
     &:hover {
@@ -59,7 +59,7 @@ section {
 
 .cards__luxury {
   background-color: $extra-dark-cyan;
-  .btn-primary {
+  a {
     border-color: $extra-dark-cyan;
     color: $extra-dark-cyan;
     &:hover {
@@ -74,7 +74,7 @@ section {
   .cards {
     block-size: calc(100vh - 2rem);
   }
-  section {
+  .cards__item {
     min-block-size: 25.9375rem;
   }
 }
