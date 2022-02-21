@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+// @use './assets/styles/reset';
+// @use './assets/styles/variables';
+@import './assets/styles/reset';
+@import './assets/styles/variables';
+
+html {
+  font-size: $font-size-base;
+  background-color: $very-light-gray;
+  font-family: 'Lexend Deca';
+  font-weight: $font-weight-base;
+}
+h3 {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-heading;
+  font-family: 'Big Shoulders Display';
+  color: $very-light-gray;
+}
