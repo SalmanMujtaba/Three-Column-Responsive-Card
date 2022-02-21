@@ -10,9 +10,20 @@ html {
   font-family: 'Lexend Deca';
   font-weight: $font-weight-base;
 }
-h3 {
+h2 {
   font-weight: $font-weight-bold;
   font-size: $font-size-heading;
   font-family: 'Big Shoulders Display';
   color: $very-light-gray;
+  text-transform: uppercase;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
 }
