@@ -1,0 +1,80 @@
+@import '../../assets/styles/variables';
+
+
+.cards {
+  display: grid;
+  margin-inline: auto;
+  width: calc(min(100% - 2rem, 60rem));
+  grid-template-columns: repeat(auto-fit, minmax(16.25rem, 1fr));
+  min-block-size: 28.125rem;
+}
+article {
+  color: $transparent-white;
+}
+
+section {
+  padding-inline: 1.875rem;
+  padding-block: 1.875rem;
+  display: grid;
+  min-block-size: 28.125rem;
+}
+
+.btn-primary {
+  background-color: $very-light-gray;
+  border-radius: 1.875rem;
+  border-style: solid;
+  transition-duration: 0.4s;
+  margin-block-start: auto;
+  margin-block-end: 0.625rem;
+  inline-size: 8.125rem;
+  block-size: 2.8125rem;
+}
+
+.cards__sedan {
+  background-color: $bright-orange;
+  .btn-primary {
+    border-color: $bright-orange;
+    color: $bright-orange;
+    &:hover {
+      cursor: pointer;
+      border-color: $very-light-gray;
+      color: $very-light-gray;
+      background-color: $bright-orange;
+    }
+  }
+}
+.cards__suv {
+  background-color: $dark-cyan;
+  .btn-primary {
+    border-color: $dark-cyan;
+    color: $dark-cyan;
+    &:hover {
+      cursor: pointer;
+      border-color: $very-light-gray;
+      color: $very-light-gray;
+      background-color:  $dark-cyan;
+    }
+  }
+}
+
+.cards__luxury {
+  background-color: $extra-dark-cyan;
+  .btn-primary {
+    border-color: $extra-dark-cyan;
+    color: $extra-dark-cyan;
+    &:hover {
+      cursor: pointer;
+      border-color: $very-light-gray;
+      color: $very-light-gray;
+      background-color: $extra-dark-cyan;
+    }
+  }
+}
+@media (max-width: $screen-sm) {
+  .cards {
+    block-size: calc(100vh - 2rem);
+  }
+  section {
+    min-block-size: 25.9375rem;
+  }
+}

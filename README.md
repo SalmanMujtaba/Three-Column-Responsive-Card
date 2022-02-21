@@ -1,27 +1,41 @@
 # ThreeColumnCardChallenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5. for the coding challenge: https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-. The responsive design has been followed to graceful drop to the smaller view size.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Layout
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The designs were created to the following widths:
 
-## Build
+- Mobile: 375px
+- Desktop: 1440px
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Colors
 
-## Running unit tests
+### Primary
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
 
-## Running end-to-end tests
+### Neutral
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 
-## Further help
+## Typography
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
