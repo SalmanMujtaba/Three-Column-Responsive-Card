@@ -35,7 +35,7 @@ a {
   a {
     border-color: $bright-orange;
     color: $bright-orange;
-    &:hover {
+    &:hover, &:active {
       cursor: pointer;
       border-color: $very-light-gray;
       color: $very-light-gray;
@@ -48,7 +48,7 @@ a {
   a {
     border-color: $dark-cyan;
     color: $dark-cyan;
-    &:hover {
+    &:hover, &:active {
       cursor: pointer;
       border-color: $very-light-gray;
       color: $very-light-gray;
@@ -62,7 +62,7 @@ a {
   a {
     border-color: $extra-dark-cyan;
     color: $extra-dark-cyan;
-    &:hover {
+    &:hover, &:active {
       cursor: pointer;
       border-color: $very-light-gray;
       color: $very-light-gray;
